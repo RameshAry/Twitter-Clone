@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/help', to:  'static_pages#help'
   get '/about', to: 'static_pages#about'
   get '/contact', to: 'static_pages#contact'
-  #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
+  resources :users
+  #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
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
